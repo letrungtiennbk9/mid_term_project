@@ -117,15 +117,15 @@
 						</div>
 						<div class="row address-inputs">
 							<div class="col-md-12">
-								<input type="text" placeholder="Address">
-								<input type="text" placeholder="Address line 2">
-								<input type="text" placeholder="Country">
+								<input type="text" placeholder="Địa chỉ"">
+								<input type="text" placeholder="Địa chỉ phụ"">
+								<input type="text" placeholder="Quốc gia">
 							</div>
 							<div class="col-md-6">
 								<input type="text" placeholder="Zip code">
 							</div>
 							<div class="col-md-6">
-								<input type="text" placeholder="Phone no.">
+								<input type="text" placeholder="Số điện thoại">
 							</div>
 						</div>
 						<div class="cf-title text-center">Thông tin vận chuyển</div>
@@ -153,11 +153,23 @@
 								</div>
 							</div>
 						</div>
-						<div class="cf-title text-center">Thanh toán</div>
+						<div class="cf-title text-center">Phương thức hanh toán</div>
 						<ul class="payment-list">
-							<li>Paypal<a href="#"><img src="../images/paypal.png" alt=""></a></li>
-							<li>Thẻ tín dụng / Thẻ ghi nợ<a href="#"><img src="../images/mastercart.png" alt=""></a></li>
-							<li>Thanh toán khi nhận hàng</li>
+							<div class="form-check">
+								<label class="form-check-label">
+									<input type="radio" class="form-check-input" name="optradio"><li>Paypal &nbsp; <img src="../images/paypal.png" alt=""></li>
+								</label>
+							</div>
+							<div class="form-check">
+								<label class="form-check-label">
+									<input type="radio" class="form-check-input" name="optradio"><li>Thẻ tín dụng / Thẻ ghi nợ &nbsp; <img src="../images/mastercart.png" alt=""></li>
+								</label>
+							</div>
+							<div class="form-check">
+								<label class="form-check-label">
+									<input type="radio" class="form-check-input" name="optradio"><li>Thanh toán khi nhận hàng</li>
+								</label>
+							</div>
 						</ul>
 						<button class="site-btn submit-order-btn">Giữ chỗ</button>
 					</form>

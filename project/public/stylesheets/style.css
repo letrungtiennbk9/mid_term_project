@@ -1782,20 +1782,8 @@ ol {
 	font-size: 12px;
 	font-weight: 400;
 	color: #414141;
-	text-align: center;
-	padding-bottom: 25px;
-}
-
-.cart-table table tr th.product-th {
 	text-align: left;
-}
-
-.cart-table table tr th.size-th {
-	padding-right: 70px;
-}
-
-.cart-table table tr th.quy-th {
-	padding-right: 20px;
+	padding-bottom: 25px;
 }
 
 .cart-table .product-col {
@@ -1831,13 +1819,15 @@ ol {
 
 .cart-table .quy-col {
 	padding-right: 20px;
+	text-align: left;
 }
 
 .cart-table .quantity {
 	margin-bottom: 0;
 	-webkit-box-pack: center;
 	-ms-flex-pack: center;
-	justify-content: center;
+	justify-content: left;
+	width: 80px
 }
 
 .cart-table .quantity .pro-qty {
@@ -1852,7 +1842,7 @@ ol {
 
 .cart-table .size-col,
 .cart-table .total-col {
-	text-align: center;
+	text-align: left;
 }
 
 .cart-table .size-col h4,
