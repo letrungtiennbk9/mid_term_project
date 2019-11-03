@@ -62,10 +62,10 @@ a {
 	line-height: 1.7;
 	color: #666666;
 	margin: 0px;
-	transition: all 0.4s;
-	-webkit-transition: all 0.4s;
-  -o-transition: all 0.4s;
-  -moz-transition: all 0.4s;
+	transition: all 0.2s;
+	-webkit-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  -moz-transition: all 0.2s;
 }
 
 a:focus {
@@ -308,10 +308,10 @@ iframe {
   left: 0;
   top: 30px;
 
-  -webkit-transition: all 0.4s;
-  -o-transition: all 0.4s;
-  -moz-transition: all 0.4s;
-  transition: all 0.4s;
+  -webkit-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  transition: all 0.2s;
 }
 
 .input100 {
@@ -327,10 +327,10 @@ iframe {
 
 input.input100 {
   height: 100%;
-  -webkit-transition: all 0.4s;
-  -o-transition: all 0.4s;
-  -moz-transition: all 0.4s;
-  transition: all 0.4s;
+  -webkit-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  transition: all 0.2s;
 }
 
 /*---------------------------------------------*/
@@ -349,10 +349,10 @@ input.input100 {
   visibility: hidden;
   opacity: 0;
 
-  -webkit-transition: all 0.4s;
-  -o-transition: all 0.4s;
-  -moz-transition: all 0.4s;
-  transition: all 0.4s;
+  -webkit-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  transition: all 0.2s;
 
   -webkit-transform: scaleX(1.1) scaleY(1.3);
   -moz-transform: scaleX(1.1) scaleY(1.3);
@@ -488,10 +488,10 @@ input.input100 {
   text-transform: uppercase;
   letter-spacing: 1px;
 
-  -webkit-transition: all 0.4s;
-  -o-transition: all 0.4s;
-  -moz-transition: all 0.4s;
-  transition: all 0.4s;
+  -webkit-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  transition: all 0.2s;
 }
 
 .login100-form-btn:hover {
@@ -568,10 +568,10 @@ input.input100 {
   visibility: hidden;
   opacity: 0;
 
-  -webkit-transition: opacity 0.4s;
-  -o-transition: opacity 0.4s;
-  -moz-transition: opacity 0.4s;
-  transition: opacity 0.4s;
+  -webkit-transition: opacity 0.2s;
+  -o-transition: opacity 0.2s;
+  -moz-transition: opacity 0.2s;
+  transition: opacity 0.2s;
 }
 
 .alert-validate::after {
