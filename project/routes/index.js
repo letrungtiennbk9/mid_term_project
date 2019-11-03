@@ -50,4 +50,8 @@ router.get('/shoes.html', (req, res, next) => {
   res.render('shoes');
 });
 
+router.get('/clothes.html', (req, res, next) => {
+  res.render('clothes');
+});
+
 module.exports = router;
