@@ -67,18 +67,91 @@
                 var myChart = new Chart(ctx, {
                     type: 'bar',
                     data: {
-                        labels: ["M", "T", "W", "R", "F", "S", "S"],
+                        labels: ["Tháng đầu", "Tháng thứ 2", "Tháng thứ 3", "Tháng thứ 4"],
                         datasets: [{
-                            label: 'Almonds',
+                            label: 'Trang phục',
                             data: [12, 19, 3, 17, 28, 24, 7],
                            backgroundColor: "rgba(89, 105, 255,0.5)",
                                     borderColor: "rgba(89, 105, 255,0.7)",
                             borderWidth: 2
                         }, {
-                            label: 'Cashew',
+                            label: 'Phụ kiện',
                             data: [30, 29, 5, 5, 20, 3, 10],
                            backgroundColor: "rgba(255, 64, 123,0.5)",
                                     borderColor: "rgba(255, 64, 123,0.7)",
+                            borderWidth: 2
+                        },
+                        {
+                            label: 'Giày',
+                            data: [15, 21, 7, 6, 17, 12, 5],
+                           backgroundColor: "rgba(203, 245, 66,0.5)",
+                                    borderColor: "rgba(203, 245, 66,0.5)",
+                            borderWidth: 2
+                        }]
+                    },
+                    options: {
+                        scales: {
+                            yAxes: [{
+
+                            }]
+                        },
+                             legend: {
+                        display: true,
+                        position: 'bottom',
+
+                        labels: {
+                            fontColor: '#71748d',
+                            fontFamily: 'Circular Std Book',
+                            fontSize: 14,
+                        }
+                    },
+
+                    scales: {
+                        xAxes: [{
+                            ticks: {
+                                fontSize: 14,
+                                fontFamily: 'Circular Std Book',
+                                fontColor: '#71748d',
+                            }
+                        }],
+                        yAxes: [{
+                            ticks: {
+                                fontSize: 14,
+                                fontFamily: 'Circular Std Book',
+                                fontColor: '#71748d',
+                            }
+                        }]
+                    }
+                }
+
+                    
+                });
+            }
+
+            if ($('#chartjs_bar_1').length) {
+                var ctx = document.getElementById("chartjs_bar_1").getContext('2d');
+                var myChart = new Chart(ctx, {
+                    type: 'bar',
+                    data: {
+                        labels: ["Quý 1", "Quý 2", "Quý 3", "Quý 4"],
+                        datasets: [{
+                            label: 'Trang phục',
+                            data: [55, 65, 41, 90],
+                           backgroundColor: "rgba(89, 105, 255,0.5)",
+                                    borderColor: "rgba(89, 105, 255,0.7)",
+                            borderWidth: 2
+                        }, {
+                            label: 'Phụ kiện',
+                            data: [30, 25, 25, 35],
+                           backgroundColor: "rgba(255, 64, 123,0.5)",
+                                    borderColor: "rgba(255, 64, 123,0.7)",
+                            borderWidth: 2
+                        },
+                        {
+                            label: 'Giày',
+                            data: [40, 45, 55, 45],
+                           backgroundColor: "rgba(203, 245, 66,0.5)",
+                                    borderColor: "rgba(203, 245, 66,0.5)",
                             borderWidth: 2
                         }]
                     },

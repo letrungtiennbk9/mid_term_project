@@ -1,6 +1,28 @@
 jQuery(document).ready(function($) {
     'use strict';
 
+    $('table.first').DataTable({
+        "searching": true,
+        "paging": true,
+        "info": true,
+        "aLengthMenu": [[5, 10], [5, 10, 75, "All"]],
+        "iDisplayLength": 5,
+        "language": {
+            "lengthMenu": "Hiện _MENU_ hàng",
+            "zeroRecords": "Không tìm thấy",
+            "info": "Đang hiển thị trang _PAGE_ trên _PAGES_",
+            "infoEmpty": "Không có bản ghi nào",
+            "infoFiltered": "(lọc từ _MAX_ bản ghi)",
+            "sSearch": "Tìm kiếm:",
+            "oPaginate": {
+                "sFirst":    "Đầu",
+                "sLast":    "Cuối",
+                "sNext":    "Kế",
+                "sPrevious": "Lùi"
+            }
+        }
+    });
+
     if ($("table.first").length) {
 
         $(document).ready(function() {
@@ -14,8 +36,24 @@ jQuery(document).ready(function($) {
 
         $(document).ready(function() {
             var table = $('table.second').DataTable({
-                lengthChange: false,
-                buttons: ['copy', 'excel', 'pdf', 'print', 'colvis']
+                lengthChange: true,
+                "aLengthMenu": [[5, 10], [5, 10, 75, "All"]],
+                "iDisplayLength": 5,
+                buttons: ['copy', 'excel', 'pdf', 'print', 'colvis'],
+                language: {
+                    "lengthMenu": "Hiện _MENU_ hàng",
+                    "zeroRecords": "Không tìm thấy",
+                    "info": "Đang hiển thị trang _PAGE_ trên _PAGES_",
+                    "infoEmpty": "Không có bản ghi nào",
+                    "infoFiltered": "(lọc từ _MAX_ bản ghi)",
+                    "sSearch": "Tìm kiếm:",
+                    "oPaginate": {
+                        "sFirst":    "Đầu",
+                        "sLast":    "Cuối",
+                        "sNext":    "Kế",
+                        "sPrevious": "Lùi"
+                    }
+                }
             });
 
             table.buttons().container()

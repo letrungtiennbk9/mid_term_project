@@ -34,5 +34,9 @@ router.get('/add-product.html', function(req, res, next) {
   res.render('add-product', { title: 'Express' });
 });
 
+router.get('/chart-charts.html', function(req, res, next) {
+  res.render('chart-charts', { title: 'Express' });
+});
+
 
 module.exports = router;
