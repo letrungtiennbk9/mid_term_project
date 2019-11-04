@@ -39,7 +39,7 @@ jQuery(document).ready(function($) {
                 lengthChange: true,
                 "aLengthMenu": [[5, 10], [5, 10, 75, "All"]],
                 "iDisplayLength": 5,
-                buttons: ['copy', 'excel', 'pdf', 'print', 'colvis'],
+                buttons: ['copy', 'excel', 'pdf', 'print'],
                 language: {
                     "lengthMenu": "Hiện _MENU_ hàng",
                     "zeroRecords": "Không tìm thấy",

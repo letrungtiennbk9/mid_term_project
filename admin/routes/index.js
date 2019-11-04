@@ -38,5 +38,9 @@ router.get('/chart-charts.html', function(req, res, next) {
   res.render('chart-charts', { title: 'Express' });
 });
 
+router.get('/account-modify.html', function(req, res, next) {
+  res.render('account-modify', { title: 'Express' });
+});
+
 
 module.exports = router;
